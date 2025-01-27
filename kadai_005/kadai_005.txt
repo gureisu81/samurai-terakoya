@@ -1,0 +1,27 @@
+PS C:\Users\User\OneDrive\デスクトップ\侍エンジニア> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\User\OneDrive\デスクトップ\侍エンジニア
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/01/27      9:53                git_challenge
+
+
+PS C:\Users\User\OneDrive\デスクトップ\侍エンジニア> cd git_challenge
+PS C:\Users\User\OneDrive\デスクトップ\侍エンジニア\git_challenge> git init
+Initialized empty Git repository in C:/Users/User/OneDrive/デスクトップ/侍エンジニア/git_challenge/.git/
+PS C:\Users\User\OneDrive\デスクトップ\侍エンジニア\git_challenge> echo "Hello,world" >> hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\侍エンジニア\git_challenge> git add .
+PS C:\Users\User\OneDrive\デスクトップ\侍エンジニア\git_challenge> git commit -m "hello_world!.txtを追加"
+[main (root-commit) 3b74417] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\侍エンジニア\git_challenge> git add .
+PS C:\Users\User\OneDrive\デスクトップ\侍エンジニア\git_challenge> git commit -m "日本語訳を追 記"
+[main 758d227] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\User\OneDrive\デスクトップ\侍エンジニア\git_challenge> git log --oneline
+758d227 (HEAD -> main) 日本語訳を追記
+3b74417 hello_world.txtを追加
